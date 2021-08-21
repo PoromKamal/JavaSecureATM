@@ -10,5 +10,6 @@ class Frame{
     }
     public void initWindow(){
         main_frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        main_frame.setSize(width, height);
     }
 }
